@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+body{
+    
+        background-image: url("../images/pexels-photo-3522880.jpeg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 4%;
+        width: 92%;
+        height: 121.4vh;
+    
+    
+}
+#log{
+    /* margin: 10% 40%; */
+    margin-top: 10%;
+    
+    margin-bottom: 2%;
+    color: Rgb(130,53,22);
+    font-size: 50px;
+    margin-left: 46%;
+
+}
+form {
+    color: #FFF;
+    height: 35vh;
+    font-family: sans-serif;
+    background-color: Rgba(29,25,24,.6);
+    margin: auto;
+    width: 300px;
+    border: 1px solid #FFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 40%;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, .15);
+
+}
+input[type=email],
+input[type=password],
+button {
+    margin-top: 6%;
+    margin-left:30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+}
+
+label {
+    margin-left:35px;
+}
+button {
+    width: 130px;
+    height: 40px;
+    background-color: Rgb(130,53,22);
+    border: none;
+    color: white;
+    margin-top: 2%;
+    margin-left: 25%;
+    padding: 20px auto;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 900;
+}
+button:hover{
+    transform: scale(1.07);
+    background-color: rgb(227, 219, 219);
+    color: Rgb(130,53,22);
+}

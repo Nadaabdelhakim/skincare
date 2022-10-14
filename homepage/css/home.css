@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Alata', sans-serif;
+}
+#first{
+    width: 100%;
+    height: 143.7vh;
+    background: Rgb(222,178,142);
+    position: relative;
+    
+}
+#first #nav{
+    width: 100%;
+    height: 15vh;
+    position: sticky;
+    top: 0%;
+    background-color:  rgb(129,52,22);
+}
+#first #nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#first #nav ul li {
+    margin-left: 7%;
+    margin-top: 5%;
+    
+}
+#first #nav ul li span{
+    position: absolute;
+    left: 85%;
+}
+#first #nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#first #nav ul li a:hover{
+    color: bisque;
+}
+#first #back #imgg{
+    background-image: url("../img/pexels-spencer-davis-4388167.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4%;
+    width: 92%;
+    height: 121.4vh;
+}
+#first #back #parg{
+    background-color: antiquewhite;
+    width: 30%;
+    height: 40vh;
+    position: absolute;
+    left: 48%;
+    top: 12%;
+}
+#first #back #parg .p1{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    color: rgb(129,52,22);
+}
+#first #back #parg .p2{
+    padding-left: 40px;
+    font-size: 17px;   
+    
+    color: rgb(129,52,22);
+}
+#first #back #parg button{
+    width: 37%;
+    height: 43px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(129,52,22);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 36px;
+    font-size: 17px;
+}
+
+#first #back #parg button:hover{
+    border: 1px solid rgb(129,52,22);
+    background-color: antiquewhite;
+    color: rgb(129,52,22);
+}
+#first #back ul{
+    list-style-type: none;
+    position: absolute;
+    left: 94%;
+    top: 52%;
+    font-size: 23px;
+}
+#first #back ul li {
+    padding-top: 30px;
+}
+#first #back ul li a{
+    text-decoration: none;
+    text-align: center;
+    /* color: white; */
+    
+    color:  rgb(129,52,22);
+}
+#first #back ul li a:hover{
+    color: bisque;
+}
+
+#about{
+    margin: 10% auto;
+    width: 95%;
+    height: 66vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#about #tttt{
+    background-color: bisque;
+    width: 100%;
+    height: 66vh;
+}
+#about #tttt .p11{
+    font-size: 36px;
+    padding: 30px;
+}
+#about #tttt .p22{
+    font-size: 16px;
+    padding: 30px;
+}
+#product{
+    margin-top: 10%;
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(129,52,22);
+}
+#product #hhhh{
+    text-align: center;
+    font-size: 40px;
+    color: bisque;
+    padding-top: 2%;
+}
+#product #main{
+width: 90%;
+height: 60vh;
+margin:10% auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+#product #main div{
+    background-color: bisque;
+    margin-left: 5%;
+}
+#product #main img{
+    width: 70%;
+    height: 40vh;
+    margin-left: 15%;
+}
+#product #main a img:hover{
+    width: 72%;
+    height: 42vh;
+    opacity: .8;
+}
+#product #main h1{
+    color: rgb(129,52,22);
+    font-size: 20px;
+    margin: 3% 23%;
+    
+}
+#product #main h2{
+    margin: 3% 23%;
+    font-size: 20px;
+    color: rgb(129,52,22);
+}
+#product #main button{
+    width: 34%;
+    margin: 1% 21%;
+    height: 40px;
+    border: 1px solid bisque;
+    background-color: rgb(129,52,22);
+    border-radius: 35px;
+    color: bisque;
+    font-size: 17px;
+    border: 1px solid rgb(129,52,22);
+}
+#product #main button:hover{
+    background-color: bisque;
+    color: rgb(129,52,22);
+}
+#product #feedback{
+    width: 100%;
+    height: 94vh;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    /* margin-bottom: 95%; */
+
+}
+#product #feedback img{
+    width: 100%;
+    height: 90vh;
+    margin-top: 15%;
+}
+#product #feedback #feed2{
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+#product #feedback #feed2 h1{
+    margin-top:35% ;
+    text-align: center;
+    font-size: 27px;
+}
+#product #feedback #feed2 div{
+    margin:5% auto;
+    width: 60%;
+    text-align: justify;
+
+}
+
+.mySlides {display: none;}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  #product #feedback textarea{
+    margin-left:20% ;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#product #feedback #feed {
+    width: 27%;
+    height: 43px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(129,52,22);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 38%;
+    font-size: 17px;
+}
+
+#product #feedback #feed:hover{
+    border: 1px solid rgb(129,52,22);
+    background-color: antiquewhite;
+    color: rgb(129,52,22);
+}
+/* #best{
+    width: 93%;
+    height: 75vh;
+    background-color: antiquewhite;
+    margin-top: 45%;
+    margin:45% auto 20% ;
+    
+}
+#best #d11 #ffff{
+ text-align: center;
+ font-size: 33px;
+ margin-top: 3%;
+
+}
+#best #d11 #d12{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+    margin-top: 5%;
+    
+}
+#best #d11 #d12 img{
+    width: 50%;
+    height: 40vh;
+    
+}
+#best #d11 #d12 img:hover{
+    width: 52%;
+    height: 42vh;
+    opacity: .8;
+    
+}
+#best #d11 #d12 h1{
+ 
+    margin: 2%;
+    font-size: 20px;
+
+    
+}
+#best #d11 #d12 h2{
+    margin: 2%;
+    font-size: 20px;
+
+}
+#best #d11 #d12 button{
+    width: 34%;
+    
+    height: 40px;
+    border: 1px solid bisque;
+    background-color: rgb(129,52,22);
+    border-radius: 35px;
+    color: bisque;
+    font-size: 17px;
+}
+#best #d11 #d12 button:hover{
+    background-color: antiquewhite;
+    color: rgb(129,52,22);
+    border: 1px solid rgb(129,52,22);
+} */
+#product #feedback #feed {
+    width: 27%;
+    height: 43px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(129,52,22);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 38%;
+    font-size: 17px;
+}
+
+#product #feedback #feed:hover{
+    border: 1px solid rgb(129,52,22);
+    background-color: antiquewhite;
+    color: rgb(129,52,22);
+}
+#last {
+    background-image: url("../img/pexels-roxanne-shewchuk-2184177.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40%;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#nav2{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(129,52,22);
+    
+}
+ #nav2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+}
+ #nav2 ul li {
+    margin-left: 9%;
+    margin-top: 5%;
+}
+ #nav2 ul li span{
+    position: absolute;
+    left: 85%;
+}
+ #nav2 ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+ #nav2 ul li a:hover{
+    color: bisque;
+}
+footer {
+    height: 5vh;
+}
+footer p{
+    margin: 1% auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
